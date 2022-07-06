@@ -6,7 +6,7 @@ from nibabel import Nifti1Header, Nifti2Header
 from .util import PartialBuffer, probe
 from .exceptions import NotNiftiException
 
-__version__="0.0.1"
+__version__="0.0.2"
 
 NIFTI1_MAGIC_BYTES = 348
 NIFTI2_MAGIC_BYTES = 540
